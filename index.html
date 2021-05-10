@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello world!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black">
+        <span class="branding w3-bar-item w3-mobile">Hello world Web Services</span>
+        <span class="w3-right w3-mobile">
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-blue w3-green" href="#">Home</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-grey" href="#about">About</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-grey" href="#services">Services</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-grey" href="#contact">Contact</a>
+        </span>
+      </div>
+    </div>
+
+    <!-- SHOWCASE -->
+    <section class="showcase">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow w3-animate-opacity">Go Anywhere</h1>
+        <hr>
+        <p class="w3-animate-opacity">It's me again I'm Ready For another day of same life but different purpose</p>
+        <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-blue w3-large w3-opacity">Start Here</button>
+      </div>
+    </section>
+
+    <!-- SECTION 1 -->
+    <section class="section w3-blue w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-home"></i>
+        <h2>Welcome Home</h2>
+        <p>In a daily life, reach out to others with scared act of saying hello, a smile, word of encouragement.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section w3-light-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-cog"></i>
+        <h2>Let's Begin</h2>
+        <p>Don't make a life, life made you.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-col m5">
+            <img src="img/Inspie.jpg">
+          </div>
+          <div class="w3-col m7">
+            <button onclick="accFunction('what')" class="w3-btn-block w3-left-align">
+            What We Do</button>
+
+            <div id="what" class="w3-container w3-show">
+              <h3>Believe</h3>
+              <p>Always, always, always believe in yourself, because if you don't, then who will, sweetie?.</p>
+            </div>
+
+            <button onclick="accFunction('who')" class="w3-btn-block w3-left-align">
+            What We Do</button>
+
+            <div id="who" class="w3-container w3-hide">
+              <h3>Become</h3>
+              <p>Maybe, if you can't get someone out of your head they were never meant to leave. Perhaps, they were meant to help change you into the person you have been waiting to become.</p>
+            </div>
+
+            <button onclick="accFunction('where')" class="w3-btn-block w3-left-align">
+            What We Do</button>
+
+            <div id="where" class="w3-container w3-hide">
+              <h3>We Are Everywhere</h3>
+              <p>On a visit or vacation to Toba Lake, you may say 'Horas' to Batak people, when we meet, visit and shake hands.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES HEADING -->
+    <section id="services" class="section w3-blue w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">OUR SERVICES</h1>
+        <p>Hello COVID-19, hello intensive care.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section w3-light-grey">
+      <div class="w3-container w3-center">
+        <div class="w3-row">
+          <div class="w3-col m3">
+            <i class="fa fa-comment w3-blue w3-padding-small w3-round-xlarge"></i>
+            <h3>Internet Marketing</h3>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-search w3-blue w3-padding-small w3-round-xlarge"></i>
+            <h3>SEO</h3>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-cubes w3-blue w3-padding-small w3-round-xlarge"></i>
+            <h3>Software Development</h3>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-cloud w3-blue w3-padding-small w3-round-xlarge"></i>
+            <h3>Cloud Hosting</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT HEADING -->
+    <section id="contact" class="section w3-dark-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+        <p>Some people teach you the worth of even a whispered Hello. Some, the value of a worded Goodbye</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section">
+      <div class="w3-container">
+        <div class="w3-card-4">
+          <div class="w3-container w3-dark-grey">
+            <h2>Contact Us</h2>
+          </div>
+            <form class="w3-container w3-padding-xlarge">
+            <label class="w3-label">Name</label>
+            <input class="w3-input" type="text">
+            <label class="w3-label">Email</label>
+            <input class="w3-input" type="text">
+            <label class="w3-input">Message</label>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <br>
+              <button onclick="myFunction()" class="w3-button">Submit</button>
+              <script>
+              function myFunction() {
+              alert("Your details has been sent..Sucessfully!");
+}
+</script>
+            <br><br>
+            </form>
+          </div>
+      </div>
+    </section>
+
+
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+    </div>
+    </div>
+
+
+
+    <!-- MODAL -->
+    <div id="start-modal" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-blue">
+          <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn"></span>
+          <h2>Get Started</h2>
+        </header>
+
+        <div class="w3-container">
+          <form>
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
+              <label>Username</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username">
+              <label>Password</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+              <label>Confirm Password</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+              <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+   </div>
+   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Hello world web services</a></p>
+  </footer>
+
+
+
+    <script>
+      function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+  </body>
+</html>
